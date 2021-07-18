@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.entity;
+package one.digitalinnovation.personapi.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,7 +20,7 @@ public class Person {
     private Long id;
 
     @Column(nullable = false)
-    private String fristName;
+    private String firstName;
 
     @Column(nullable = false)
     private String lastName;

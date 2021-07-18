@@ -1,12 +1,12 @@
 package one.digitalinnovation.personapi.utils;
 
 import one.digitalinnovation.personapi.dto.request.PhoneDTO;
-import one.digitalinnovation.personapi.entity.Phone;
+import one.digitalinnovation.personapi.entities.Phone;
 import one.digitalinnovation.personapi.enums.PhoneType;
 
 public class PhoneUtils {
 
-    private static final String PHONE_NUMBER = "1199999-9999";
+    private static final String PHONE_NUMBER = "5399999-9999";
     private static final PhoneType PHONE_TYPE = PhoneType.MOBILE;
     private static final long PHONE_ID = 1L;
 
